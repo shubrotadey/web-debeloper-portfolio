@@ -8,13 +8,15 @@ body {
 .text-primary {
     color: #fd6e0a;
 }
+
 /* nav related styles */
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* margin: 20px; */
 }
+
 .btn-primary {
     border-radius: 5px;
     background: #fd6e0a;
@@ -45,7 +47,7 @@ body {
     font-weight: 800;
 }
 
-.nav> ul {
+.nav>ul {
     display: flex;
     align-items: center;
 }
@@ -66,8 +68,8 @@ body {
 .header {
     background-color: #fff8f3;
     background-image: url("../images/header_bg.png");
-        background-repeat: no-repeat;
-        background-position: bottom right;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 
@@ -101,7 +103,15 @@ body {
     margin-bottom: 20px;
 }
 
-/* main secshion */
+/* main section */
+.main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.main section {
+    margin-top: 130px;
+}
 
 /* about section styles */
 .about {
@@ -109,4 +119,65 @@ body {
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
-}   
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff8f3;
+    box-shadow: 0px 6px 50px 0px rgba(red, green, blue, alpha);
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume-column-title */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-institute, .resume-item-description{
+    color: #757575;
+}
+
+.resume-container-hr{
+    margin: 0px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}

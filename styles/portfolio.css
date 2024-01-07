@@ -1,12 +1,18 @@
 /* common shared styles */
-body {
+.body {
     font-family: 'Open Sans', sans-serif;
 }
 
 .text-primary {
     color: #fd6e0a;
 }
-
+/* nav related styles */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 200px;
+}
 .btn-primary {
     border-radius: 5px;
     background: #fd6e0a;
@@ -17,14 +23,19 @@ body {
     padding: 15px 35px;
 }
 
-/* nav related styles */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    /* line-height: normal; */
 }
 
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 40px
+}
 
 .nav-title {
     color: black;
@@ -32,31 +43,68 @@ nav {
     font-weight: 800;
 }
 
-nav>ul {
+.nav> ul {
     display: flex;
     align-items: center;
 }
 
-nav li {
+.nav li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav a {
+.nav a {
     text-decoration: none;
-  
-} 
- 
-/* header related styles */
-.header {
-    background-color: #fff8f3;
+
 }
 
-.banner{
-    padding: 30px 30px 30px 150px;
+
+
+/* header related styles */
+/* .header {
+    background-color: #fff8f3;
+    background-image: url("../images/background\ img.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+} */
+
+
+
+.banner {
+    padding: 30px 30px 0px 100px;
     display: flex;
-   align-items: center;
+    align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
-        width: 500px;
+
+.banner-content {
+    max-width: 500px;
 }
+
+.banner .profile-pic {
+    width: 400px;
+}
+
+.banner-greting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    /* font-style: normal; */
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* main secshion */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
+}   
